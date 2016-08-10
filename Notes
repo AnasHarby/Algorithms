@@ -1,0 +1,34 @@
+- Merge Sort:
+	- Worst Case: left half and right half are already sorted, resulting in maximum
+				  number of comparisons.
+				  
+	- Input array arr[] = [4,0,6,2,5,1,7,3]
+		                           /  \
+		                          /    \
+		                  [4,0,6,2] and [5,1,7,3]
+		                     / \           / \
+		                    /   \         /   \
+		                 [4,0] [6,2]    [5,1] [7,3]      Every pair of 2 will be compared atleast once therefore maximum comparison here
+		                   |     |        |     |
+		                   |     |        |     |
+		                 [0,4] [2,6]    [1,5] [3,7]      Maximum Comparison:Every pair of set is used in comparison     
+		                   \     /        \     /                        
+		                    \   /          \   /
+		                 [0,2,4,6]      [1,3,5,7]        Maximum comparison again: Every pair of set compared
+		                      \             /
+		                       \           / 
+		                     [0,1,2,3,4,5,6,7]          
+						  
+
+- Quick Sort:
+	- Worst Case (O(n^2)): when using leftmost or rightmost elements as pivots:
+		- Array is already sorted in some order.
+		- Array is already sorted in reverse order.
+		- All elements are the same.
+	 
+- Memory-wise best sorting algorithm:
+	- Sorting sort.
+	- Cycle sort.
+	
+- Use Insertion Sort for nearly sorted (k-sorted) arrays (O(n log k)) or use binary search.
+ 
