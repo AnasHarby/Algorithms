@@ -1,10 +1,3 @@
-/*
- * BinarySearch.h
- *
- *  Created on: Aug 10, 2016
- *      Author: anas-harby
- */
-
 #ifndef SEARCHING__SORTING_H_
 #define SEARCHING__SORTING_H_
 

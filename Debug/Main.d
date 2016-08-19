@@ -1,3 +1,3 @@
-Main.o: ../Main.cpp ../Basic.h
+Main.o: ../Main.cpp ../SegmentTree.h
 
-../Basic.h:
+../SegmentTree.h:
