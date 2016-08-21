@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 #include "Graph.h"
+#include "DisjointSet.h"
 #define INF 0x3f3f3f3f
+
+struct edge {
+	int u, v, w;
+};
+
+bool comp(edge x, edge y) {
+	return x.w < y.w;
+}
 
 Graph::Graph(int N) {
 	this->N = N;
@@ -10,6 +19,10 @@ Graph::Graph(int N) {
 void Graph::addEdgeUndirectedWeighted(int u, int v, int w) {
 	adj[u].push_back(std::make_pair(v, w));
 	adj[v].push_back(std::make_pair(u, w));
+}
+
+void Graph::addEdgeDirectedWeighted(int u, int v, int w) {
+	adj[u].push_back(std::make_pair(v, w));
 }
 
 std::vector<int> Graph::dijkstra(int src) {
@@ -23,7 +36,7 @@ std::vector<int> Graph::dijkstra(int src) {
 		int u = pq.top().second;
 		pq.pop();
 
-		for (int i = 0; i < adj[u].size(); i++) {
+		for (unsigned i = 0; i < adj[u].size(); i++) {
 			int v = adj[u][i].first;
 			int w = adj[u][i].second;
 
@@ -48,7 +61,7 @@ int Graph::dijkstra(int src, int dest) {
 			int u = pq.top().second;
 			pq.pop();
 
-			for (int i = 0; i < adj[u].size(); i++) {
+			for (unsigned i = 0; i < adj[u].size(); i++) {
 				int v = adj[u][i].first;
 				int w = adj[u][i].second;
 
@@ -60,4 +73,29 @@ int Graph::dijkstra(int src, int dest) {
 		}
 
 		return dist[dest];
+}
+
+std::vector<std::pair<int, int> > Graph::kruskal() {
+	std::vector<std::pair<int, int> > res;
+	std::vector<edge> edges;
+	int c = 0;
+	for (int i = 0; i < N; i++)
+		for (unsigned j = 0; j < adj[i].size(); j++) {
+			edges.push_back(edge());
+			edges[c].u = i;
+			edges[c].v = adj[i][j].first;
+			edges[c].w = adj[i][j].second;
+			c++;
+		}
+
+	sort(edges.begin(), edges.end(), comp);
+	DisjointSet ds(N);
+	for (int i = 0; i < c; i++) {
+		int u = edges[i].u, v = edges[i].v;
+		if (ds.findParent(u) != ds.findParent(v)) {
+			ds.mergeVertices(u, v);
+			res.push_back(std::make_pair(u, v));
+		}
+	}
+	return res;
 }

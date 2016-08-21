@@ -10,8 +10,10 @@ private:
 public:
 	Graph(int N);
 	void addEdgeUndirectedWeighted(int u, int v, int w);
+	void addEdgeDirectedWeighted(int u, int v, int w);
 	std::vector<int> dijkstra(int src);
 	int dijkstra(int src, int dest);
+	std::vector<std::pair<int, int> > kruskal();
 };
 
 #endif /* GRAPH_H_ */
