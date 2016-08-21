@@ -4,16 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../Graph.cpp \
 ../Main.cpp \
 ../Searching,\ Sorting.cpp \
 ../SegmentTree.cpp 
 
 OBJS += \
+./Graph.o \
 ./Main.o \
 ./Searching,\ Sorting.o \
 ./SegmentTree.o 
 
 CPP_DEPS += \
+./Graph.d \
 ./Main.d \
 ./Searching,\ Sorting.d \
 ./SegmentTree.d 
