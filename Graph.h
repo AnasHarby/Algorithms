@@ -14,6 +14,7 @@ public:
 	std::vector<int> dijkstra(int src);
 	int dijkstra(int src, int dest);
 	std::vector<std::pair<int, int> > kruskal();
+	std::vector<std::vector<int> > floydWarshall();
 };
 
 #endif /* GRAPH_H_ */

@@ -99,3 +99,24 @@ std::vector<std::pair<int, int> > Graph::kruskal() {
 	}
 	return res;
 }
+
+std::vector<std::vector<int> > Graph::floydWarshall() {
+	std::vector<std::vector<int> > dist(N);
+
+	for(int i = 0; i < N; i++)
+		dist[i].resize(N, INF);
+
+	for (int i = 0; i < N; i++) {
+		dist[i][i] = 0;
+		for (unsigned j = 0; j < adj[i].size(); j++)
+			dist[i][adj[i][j].first] = adj[i][j].second;
+	}
+
+	for (int k = 0; k < N; k++)
+		for (int i = 0; i < N; i++)
+			for (int j = 0; j < N; j++)
+				if (dist[i][j] > dist[i][k] + dist[k][j])
+					dist[i][j] = dist[i][k] + dist[k][j];
+
+	return dist;
+}

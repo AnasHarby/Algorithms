@@ -1,5 +1,5 @@
-#ifndef SEARCHING__SORTING_H_
-#define SEARCHING__SORTING_H_
+#ifndef SEARCHING-SORTING_H_
+#define SEARCHING-SORTING_H_
 
 int binarySearch(int arr[], int x, int l, int r);
 void mergeSort(int arr[], int l, int r);
