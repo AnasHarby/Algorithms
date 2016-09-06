@@ -1,10 +1,3 @@
-/*
- * DisjointSet.h
- *
- *  Created on: Aug 22, 2016
- *      Author: anas-harby
- */
-
 #ifndef DISJOINTSET_H_
 #define DISJOINTSET_H_
 

@@ -1,10 +1,3 @@
-/*
- * DisjointSet.cpp
- *
- *  Created on: Aug 22, 2016
- *      Author: anas-harby
- */
-
 #include "DisjointSet.h"
 
 DisjointSet::DisjointSet(int N) {

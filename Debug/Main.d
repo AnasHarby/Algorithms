@@ -1,3 +1,3 @@
-Main.o: ../Main.cpp ../Graph.h
+Main.o: ../Main.cpp ../DP.h
 
-../Graph.h:
+../DP.h:

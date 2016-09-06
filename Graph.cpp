@@ -50,6 +50,10 @@ std::vector<int> Graph::dijkstra(int src) {
 	return dist;
 }
 
+/*
+ * Without priority queue and with matrix O(V^2).
+ * With O(ElogV).
+ */
 int Graph::dijkstra(int src, int dest) {
 	std::priority_queue<std::pair<int, int> > pq;
 		std::vector<int> dist(N, INF);
@@ -75,6 +79,12 @@ int Graph::dijkstra(int src, int dest) {
 		return dist[dest];
 }
 
+/*
+ * Sorting O(ElogE).
+ * Find/Union O(logV).
+ * Iteration O(E).
+ * Complete complexity O(ElogE + ElogV).
+ */
 std::vector<std::pair<int, int> > Graph::kruskal() {
 	std::vector<std::pair<int, int> > res;
 	std::vector<edge> edges;
@@ -99,7 +109,9 @@ std::vector<std::pair<int, int> > Graph::kruskal() {
 	}
 	return res;
 }
-
+/*
+ * O(V^3).
+ */
 std::vector<std::vector<int> > Graph::floydWarshall() {
 	std::vector<std::vector<int> > dist(N);
 
@@ -118,5 +130,28 @@ std::vector<std::vector<int> > Graph::floydWarshall() {
 				if (dist[i][j] > dist[i][k] + dist[k][j])
 					dist[i][j] = dist[i][k] + dist[k][j];
 
+	return dist;
+}
+
+//O(VE)
+std::vector<int> Graph::bellmanFord(int src) {
+	std::vector<int> dist(N, INF);
+	dist[src] = 0;
+	for (int k = 0; k < N - 1; k++) {
+		for (int i = 0; i < N; i++) {
+			for (unsigned j = 0; j < adj[i].size(); j++) {
+				int u = i, v = adj[i][j].first, w = adj[i][j].second;
+				dist[v] = std::min(dist[v], dist[u] + w);
+			}
+		}
+	}
+	for (int i = 0; i < N; i++)
+		for (unsigned j = 0; j < adj[i].size(); j++) {
+			int u = i, v = adj[i][j].first, w = adj[i][j].second;
+			if (dist[u] != INF && dist[v] > dist[u] + w) {
+				std::cout << "Graph contains negative weighted cycle!" << std::endl;
+				return new std::vector<int>(N, INF);
+			}
+		}
 	return dist;
 }

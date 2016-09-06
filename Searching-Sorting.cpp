@@ -9,6 +9,9 @@ void swap(int *a, int *b) {
 	*b = tmp;
 }
 
+/*
+ * O(log n).
+ */
 int binarySearch(int arr[], int x, int l, int r) {
 	if (r >= l) {
 		int mid = l + (r - l) / 2;
@@ -22,6 +25,9 @@ int binarySearch(int arr[], int x, int l, int r) {
 	return -1;
 }
 
+/*
+ * In all three cases O(n log n).
+ */
 void merge(int arr[], int l, int m, int r) {
 	int i, j, k;
 	int n1 = m - l + 1;
@@ -87,6 +93,12 @@ int randomPartition(int arr[], int l, int r) {
 	return partition(arr, l, r);
 }
 
+/*
+ * Worst case: array is already sorted asc or desc
+ * 			   or all elements are the same (O (n^2)).
+ * Best case: O(n).
+ * Average case: O(n log n).
+ */
 void quickSort(int arr[], int l, int r) {
 	if (l < r) {
 		int pi = partition(arr, l, r);
