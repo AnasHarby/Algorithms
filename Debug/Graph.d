@@ -1,5 +1,5 @@
-Graph.o: ../Graph.cpp ../Graph.h ../DisjointSet.h
+graph.o: ../graph.cpp ../graph.h ../disjoint_set.h
 
-../Graph.h:
+../graph.h:
 
-../DisjointSet.h:
+../disjoint_set.h:

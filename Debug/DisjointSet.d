@@ -1,3 +1,3 @@
-DisjointSet.o: ../DisjointSet.cpp ../DisjointSet.h
+disjoint_set.o: ../disjoint_set.cpp ../disjoint_set.h
 
-../DisjointSet.h:
+../disjoint_set.h:

@@ -1,5 +1,8 @@
 #include <bits/stdc++.h>
 
+/*
+ * Longest Common Subsequence.
+ */
 int lcs(std::string x, std::string y, int n, int m) {
 	if (m == 0 || n == 0)
 		return 0;
@@ -10,20 +13,18 @@ int lcs(std::string x, std::string y, int n, int m) {
 }
 
 /*
+ * Longest Increasing Subsequence.
  * O(n^2).
  */
 
 int lis(int arr[], int n) {
-	int dp[n] = {1}, m = 0;
-
+	int dp_arr[n] = {1}, m = 0;
 	for (int i = 1; i < n; i++)
 		for (int j = 0; j < i; j++)
-			if (arr[i] > arr[j] && dp[i] < dp[j] + 1)
-				dp[i] = dp[j] + 1;
-
+			if (arr[i] > arr[j] && dp_arr[i] < dp_arr[j] + 1)
+				dp_arr[i] = dp_arr[j] + 1;
 	for (int i = 0; i < n; i++)
-		m = std::max(m, dp[i]);
-
+		m = std::max(m, dp_arr[i]);
 	return m;
 }
 

@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#include "DP.h"
+#include "dp.h"
 #define INF 0x3f3f3f3f
 using namespace std;
 

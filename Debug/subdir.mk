@@ -5,24 +5,24 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
 ../DP.cpp \
-../DisjointSet.cpp \
-../Graph.cpp \
+../disjoint_set.cpp \
+../graph.cpp \
 ../Main.cpp \
 ../Searching-Sorting.cpp \
 ../SegmentTree.cpp 
 
 OBJS += \
 ./DP.o \
-./DisjointSet.o \
-./Graph.o \
+./disjoint_set.o \
+./graph.o \
 ./Main.o \
 ./Searching-Sorting.o \
 ./SegmentTree.o 
 
 CPP_DEPS += \
 ./DP.d \
-./DisjointSet.d \
-./Graph.d \
+./disjoint_set.d \
+./graph.d \
 ./Main.d \
 ./Searching-Sorting.d \
 ./SegmentTree.d 

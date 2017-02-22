@@ -3,19 +3,19 @@
 #ifndef GRAPH_H_
 #define GRAPH_H_
 
-class Graph {
+class graph {
 private:
 	int N, E = 0;
 	std::vector<std::pair<int, int> > *adj;
 public:
-	Graph(int N);
-	void addEdgeUndirectedWeighted(int u, int v, int w);
-	void addEdgeDirectedWeighted(int u, int v, int w);
+	graph(int N);
+	void add_undirected_weighted_edge(int u, int v, int w);
+	void add_directed_weighted_edge(int u, int v, int w);
 	std::vector<int> dijkstra(int src);
 	int dijkstra(int src, int dest);
-	std::vector<int> bellmanFord(int src);
+	std::vector<int> bellman_ford(int src);
 	std::vector<std::pair<int, int> > kruskal();
-	std::vector<std::vector<int> > floydWarshall();
+	std::vector<std::vector<int> > floyd_warshall();
 };
 
 #endif /* GRAPH_H_ */
