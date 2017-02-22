@@ -6,49 +6,49 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/Main.cpp
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/Main.cpp
 bits/stdc++.h
 -
 dp.h
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/dp.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/dp.h
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/disjoint_set.cpp
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/disjoint_set.cpp
 disjoint_set.h
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/disjoint_set.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/disjoint_set.h
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/disjoint_set.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/disjoint_set.h
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/dp.cpp
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/dp.cpp
 bits/stdc++.h
 -
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/dp.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/dp.h
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/graph.cpp
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/graph.cpp
 bits/stdc++.h
 -
 graph.h
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/graph.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/graph.h
 disjoint_set.h
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/disjoint_set.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/disjoint_set.h
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/graph.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/graph.h
 bits/stdc++.h
 -
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/searching_sorting.cpp
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/searching_sorting.cpp
 searching_sorting.h
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/searching_sorting.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/searching_sorting.h
 bits/stdc++.h
 -
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/searching_sorting.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/searching_sorting.h
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/segment_tree.cpp
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/segment_tree.cpp
 segment_tree.h
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/segment_tree.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/segment_tree.h
 bits/stdc++.h
 -
 
-C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/segment_tree.h
+C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/segment_tree.h
 

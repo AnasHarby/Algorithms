@@ -56,168 +56,168 @@ include CMakeFiles/Algorithms_DataStructures.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithms_DataStructures.dir/flags.make
 
-CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
-CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj: ../disjoint_set.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\disjoint_set.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\disjoint_set.cpp
+CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
+CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj: ../src/disjoint_set.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\src\disjoint_set.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\disjoint_set.cpp
 
-CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\disjoint_set.cpp > CMakeFiles\Algorithms_DataStructures.dir\disjoint_set.cpp.i
+CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\disjoint_set.cpp > CMakeFiles\Algorithms_DataStructures.dir\src\disjoint_set.cpp.i
 
-CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\disjoint_set.cpp -o CMakeFiles\Algorithms_DataStructures.dir\disjoint_set.cpp.s
+CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\disjoint_set.cpp -o CMakeFiles\Algorithms_DataStructures.dir\src\disjoint_set.cpp.s
 
-CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.requires:
+CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.requires
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.requires
 
-CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.provides.build
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.provides
+CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.provides.build
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.provides
 
-CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj
-
-
-CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
-CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj: ../dp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\dp.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\dp.cpp
-
-CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\dp.cpp > CMakeFiles\Algorithms_DataStructures.dir\dp.cpp.i
-
-CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\dp.cpp -o CMakeFiles\Algorithms_DataStructures.dir\dp.cpp.s
-
-CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.requires
-
-CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.provides.build
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.provides
-
-CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj
+CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj
 
 
-CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
-CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj: ../graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\graph.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\graph.cpp
+CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
+CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj: ../src/dp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\src\dp.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\dp.cpp
 
-CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\graph.cpp > CMakeFiles\Algorithms_DataStructures.dir\graph.cpp.i
+CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\dp.cpp > CMakeFiles\Algorithms_DataStructures.dir\src\dp.cpp.i
 
-CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\graph.cpp -o CMakeFiles\Algorithms_DataStructures.dir\graph.cpp.s
+CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\dp.cpp -o CMakeFiles\Algorithms_DataStructures.dir\src\dp.cpp.s
 
-CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.requires:
+CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.requires
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.requires
 
-CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.provides.build
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.provides
+CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.provides.build
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.provides
 
-CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj
-
-
-CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
-CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj: ../Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\Main.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\Main.cpp
-
-CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\Main.cpp > CMakeFiles\Algorithms_DataStructures.dir\Main.cpp.i
-
-CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\Main.cpp -o CMakeFiles\Algorithms_DataStructures.dir\Main.cpp.s
-
-CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.requires
-
-CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.provides.build
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.provides
-
-CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj
+CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj
 
 
-CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
-CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj: ../searching_sorting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\searching_sorting.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\searching_sorting.cpp
+CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
+CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj: ../src/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\src\graph.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\graph.cpp
 
-CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\searching_sorting.cpp > CMakeFiles\Algorithms_DataStructures.dir\searching_sorting.cpp.i
+CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\graph.cpp > CMakeFiles\Algorithms_DataStructures.dir\src\graph.cpp.i
 
-CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\searching_sorting.cpp -o CMakeFiles\Algorithms_DataStructures.dir\searching_sorting.cpp.s
+CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\graph.cpp -o CMakeFiles\Algorithms_DataStructures.dir\src\graph.cpp.s
 
-CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.requires:
+CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.requires
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.requires
 
-CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.provides.build
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.provides
+CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.provides.build
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.provides
 
-CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj
+CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj
 
 
-CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
-CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj: ../segment_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\segment_tree.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\segment_tree.cpp
+CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
+CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj: ../src/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\src\Main.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\Main.cpp
 
-CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\segment_tree.cpp > CMakeFiles\Algorithms_DataStructures.dir\segment_tree.cpp.i
+CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\Main.cpp > CMakeFiles\Algorithms_DataStructures.dir\src\Main.cpp.i
 
-CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\segment_tree.cpp -o CMakeFiles\Algorithms_DataStructures.dir\segment_tree.cpp.s
+CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\Main.cpp -o CMakeFiles\Algorithms_DataStructures.dir\src\Main.cpp.s
 
-CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.requires:
+CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.requires
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.requires
 
-CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.provides.build
-.PHONY : CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.provides
+CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.provides.build
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.provides
 
-CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj
+CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj
+
+
+CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
+CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj: ../src/searching_sorting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\src\searching_sorting.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\searching_sorting.cpp
+
+CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\searching_sorting.cpp > CMakeFiles\Algorithms_DataStructures.dir\src\searching_sorting.cpp.i
+
+CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\searching_sorting.cpp -o CMakeFiles\Algorithms_DataStructures.dir\src\searching_sorting.cpp.s
+
+CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.requires
+
+CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.provides.build
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.provides
+
+CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj
+
+
+CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj: CMakeFiles/Algorithms_DataStructures.dir/flags.make
+CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj: ../src/segment_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithms_DataStructures.dir\src\segment_tree.cpp.obj -c C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\segment_tree.cpp
+
+CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\segment_tree.cpp > CMakeFiles\Algorithms_DataStructures.dir\src\segment_tree.cpp.i
+
+CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src\segment_tree.cpp -o CMakeFiles\Algorithms_DataStructures.dir\src\segment_tree.cpp.s
+
+CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.requires
+
+CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.provides: CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.provides.build
+.PHONY : CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.provides
+
+CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.provides.build: CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj
 
 
 # Object files for target Algorithms_DataStructures
 Algorithms_DataStructures_OBJECTS = \
-"CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj" \
-"CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj" \
-"CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj" \
-"CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj" \
-"CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj" \
-"CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj"
+"CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj" \
+"CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj" \
+"CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj" \
+"CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj" \
+"CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj" \
+"CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj"
 
 # External object files for target Algorithms_DataStructures
 Algorithms_DataStructures_EXTERNAL_OBJECTS =
 
-Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj
-Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj
-Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj
-Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj
-Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj
-Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj
+Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj
+Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj
+Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj
+Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj
+Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj
+Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj
 Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/build.make
 Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/linklibs.rsp
 Algorithms_DataStructures.exe: CMakeFiles/Algorithms_DataStructures.dir/objects1.rsp
@@ -230,12 +230,12 @@ CMakeFiles/Algorithms_DataStructures.dir/build: Algorithms_DataStructures.exe
 
 .PHONY : CMakeFiles/Algorithms_DataStructures.dir/build
 
-CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj.requires
-CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj.requires
-CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj.requires
-CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj.requires
-CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj.requires
-CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj.requires
+CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj.requires
+CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj.requires
+CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj.requires
+CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj.requires
+CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj.requires
+CMakeFiles/Algorithms_DataStructures.dir/requires: CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj.requires
 
 .PHONY : CMakeFiles/Algorithms_DataStructures.dir/requires
 

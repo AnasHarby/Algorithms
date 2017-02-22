@@ -82,37 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/Main.cpp">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/Main.cpp">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/disjoint_set.cpp">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/disjoint_set.cpp">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/disjoint_set.h">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/disjoint_set.h">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/dp.cpp">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/dp.cpp">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/dp.h">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/dp.h">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/graph.cpp">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/graph.cpp">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/graph.h">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/graph.h">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/searching_sorting.cpp">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/searching_sorting.cpp">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/searching_sorting.h">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/searching_sorting.h">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/segment_tree.cpp">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/segment_tree.cpp">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
-		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/segment_tree.h">
+		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/segment_tree.h">
 			<Option target="Algorithms_DataStructures"/>
 		</Unit>
 		<Unit filename="C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/CMakeLists.txt">

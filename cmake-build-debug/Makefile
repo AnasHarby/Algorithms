@@ -122,167 +122,167 @@ Algorithms_DataStructures/fast:
 	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/build
 .PHONY : Algorithms_DataStructures/fast
 
-Main.obj: Main.cpp.obj
+src/Main.obj: src/Main.cpp.obj
 
-.PHONY : Main.obj
-
-# target to build an object file
-Main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj
-.PHONY : Main.cpp.obj
-
-Main.i: Main.cpp.i
-
-.PHONY : Main.i
-
-# target to preprocess a source file
-Main.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.i
-.PHONY : Main.cpp.i
-
-Main.s: Main.cpp.s
-
-.PHONY : Main.s
-
-# target to generate assembly for a file
-Main.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.s
-.PHONY : Main.cpp.s
-
-disjoint_set.obj: disjoint_set.cpp.obj
-
-.PHONY : disjoint_set.obj
+.PHONY : src/Main.obj
 
 # target to build an object file
-disjoint_set.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj
-.PHONY : disjoint_set.cpp.obj
+src/Main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj
+.PHONY : src/Main.cpp.obj
 
-disjoint_set.i: disjoint_set.cpp.i
+src/Main.i: src/Main.cpp.i
 
-.PHONY : disjoint_set.i
+.PHONY : src/Main.i
 
 # target to preprocess a source file
-disjoint_set.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.i
-.PHONY : disjoint_set.cpp.i
+src/Main.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
 
-disjoint_set.s: disjoint_set.cpp.s
+src/Main.s: src/Main.cpp.s
 
-.PHONY : disjoint_set.s
+.PHONY : src/Main.s
 
 # target to generate assembly for a file
-disjoint_set.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.s
-.PHONY : disjoint_set.cpp.s
+src/Main.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
 
-dp.obj: dp.cpp.obj
+src/disjoint_set.obj: src/disjoint_set.cpp.obj
 
-.PHONY : dp.obj
+.PHONY : src/disjoint_set.obj
 
 # target to build an object file
-dp.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj
-.PHONY : dp.cpp.obj
+src/disjoint_set.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj
+.PHONY : src/disjoint_set.cpp.obj
 
-dp.i: dp.cpp.i
+src/disjoint_set.i: src/disjoint_set.cpp.i
 
-.PHONY : dp.i
+.PHONY : src/disjoint_set.i
 
 # target to preprocess a source file
-dp.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.i
-.PHONY : dp.cpp.i
+src/disjoint_set.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.i
+.PHONY : src/disjoint_set.cpp.i
 
-dp.s: dp.cpp.s
+src/disjoint_set.s: src/disjoint_set.cpp.s
 
-.PHONY : dp.s
+.PHONY : src/disjoint_set.s
 
 # target to generate assembly for a file
-dp.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.s
-.PHONY : dp.cpp.s
+src/disjoint_set.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.s
+.PHONY : src/disjoint_set.cpp.s
 
-graph.obj: graph.cpp.obj
+src/dp.obj: src/dp.cpp.obj
 
-.PHONY : graph.obj
+.PHONY : src/dp.obj
 
 # target to build an object file
-graph.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj
-.PHONY : graph.cpp.obj
+src/dp.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj
+.PHONY : src/dp.cpp.obj
 
-graph.i: graph.cpp.i
+src/dp.i: src/dp.cpp.i
 
-.PHONY : graph.i
+.PHONY : src/dp.i
 
 # target to preprocess a source file
-graph.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.i
-.PHONY : graph.cpp.i
+src/dp.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.i
+.PHONY : src/dp.cpp.i
 
-graph.s: graph.cpp.s
+src/dp.s: src/dp.cpp.s
 
-.PHONY : graph.s
+.PHONY : src/dp.s
 
 # target to generate assembly for a file
-graph.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.s
-.PHONY : graph.cpp.s
+src/dp.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.s
+.PHONY : src/dp.cpp.s
 
-searching_sorting.obj: searching_sorting.cpp.obj
+src/graph.obj: src/graph.cpp.obj
 
-.PHONY : searching_sorting.obj
+.PHONY : src/graph.obj
 
 # target to build an object file
-searching_sorting.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj
-.PHONY : searching_sorting.cpp.obj
+src/graph.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj
+.PHONY : src/graph.cpp.obj
 
-searching_sorting.i: searching_sorting.cpp.i
+src/graph.i: src/graph.cpp.i
 
-.PHONY : searching_sorting.i
+.PHONY : src/graph.i
 
 # target to preprocess a source file
-searching_sorting.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.i
-.PHONY : searching_sorting.cpp.i
+src/graph.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.i
+.PHONY : src/graph.cpp.i
 
-searching_sorting.s: searching_sorting.cpp.s
+src/graph.s: src/graph.cpp.s
 
-.PHONY : searching_sorting.s
+.PHONY : src/graph.s
 
 # target to generate assembly for a file
-searching_sorting.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.s
-.PHONY : searching_sorting.cpp.s
+src/graph.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.s
+.PHONY : src/graph.cpp.s
 
-segment_tree.obj: segment_tree.cpp.obj
+src/searching_sorting.obj: src/searching_sorting.cpp.obj
 
-.PHONY : segment_tree.obj
+.PHONY : src/searching_sorting.obj
 
 # target to build an object file
-segment_tree.cpp.obj:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj
-.PHONY : segment_tree.cpp.obj
+src/searching_sorting.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj
+.PHONY : src/searching_sorting.cpp.obj
 
-segment_tree.i: segment_tree.cpp.i
+src/searching_sorting.i: src/searching_sorting.cpp.i
 
-.PHONY : segment_tree.i
+.PHONY : src/searching_sorting.i
 
 # target to preprocess a source file
-segment_tree.cpp.i:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.i
-.PHONY : segment_tree.cpp.i
+src/searching_sorting.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.i
+.PHONY : src/searching_sorting.cpp.i
 
-segment_tree.s: segment_tree.cpp.s
+src/searching_sorting.s: src/searching_sorting.cpp.s
 
-.PHONY : segment_tree.s
+.PHONY : src/searching_sorting.s
 
 # target to generate assembly for a file
-segment_tree.cpp.s:
-	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.s
-.PHONY : segment_tree.cpp.s
+src/searching_sorting.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.s
+.PHONY : src/searching_sorting.cpp.s
+
+src/segment_tree.obj: src/segment_tree.cpp.obj
+
+.PHONY : src/segment_tree.obj
+
+# target to build an object file
+src/segment_tree.cpp.obj:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj
+.PHONY : src/segment_tree.cpp.obj
+
+src/segment_tree.i: src/segment_tree.cpp.i
+
+.PHONY : src/segment_tree.i
+
+# target to preprocess a source file
+src/segment_tree.cpp.i:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.i
+.PHONY : src/segment_tree.cpp.i
+
+src/segment_tree.s: src/segment_tree.cpp.s
+
+.PHONY : src/segment_tree.s
+
+# target to generate assembly for a file
+src/segment_tree.cpp.s:
+	$(MAKE) -f CMakeFiles\Algorithms_DataStructures.dir\build.make CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.s
+.PHONY : src/segment_tree.cpp.s
 
 # Help Target
 help:
@@ -293,24 +293,24 @@ help:
 	@echo ... Algorithms_DataStructures
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Main.obj
-	@echo ... Main.i
-	@echo ... Main.s
-	@echo ... disjoint_set.obj
-	@echo ... disjoint_set.i
-	@echo ... disjoint_set.s
-	@echo ... dp.obj
-	@echo ... dp.i
-	@echo ... dp.s
-	@echo ... graph.obj
-	@echo ... graph.i
-	@echo ... graph.s
-	@echo ... searching_sorting.obj
-	@echo ... searching_sorting.i
-	@echo ... searching_sorting.s
-	@echo ... segment_tree.obj
-	@echo ... segment_tree.i
-	@echo ... segment_tree.s
+	@echo ... src/Main.obj
+	@echo ... src/Main.i
+	@echo ... src/Main.s
+	@echo ... src/disjoint_set.obj
+	@echo ... src/disjoint_set.i
+	@echo ... src/disjoint_set.s
+	@echo ... src/dp.obj
+	@echo ... src/dp.i
+	@echo ... src/dp.s
+	@echo ... src/graph.obj
+	@echo ... src/graph.i
+	@echo ... src/graph.s
+	@echo ... src/searching_sorting.obj
+	@echo ... src/searching_sorting.i
+	@echo ... src/searching_sorting.s
+	@echo ... src/segment_tree.obj
+	@echo ... src/segment_tree.i
+	@echo ... src/segment_tree.s
 .PHONY : help
 
 

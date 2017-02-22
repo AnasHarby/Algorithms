@@ -12,23 +12,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8b9637b-0e49-4e37-9a45-39dbd74211f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/salem_harby.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DP.cpp" afterPath="$PROJECT_DIR$/dp.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DP.h" afterPath="$PROJECT_DIR$/dp.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DisjointSet.cpp" afterPath="$PROJECT_DIR$/disjoint_set.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DisjointSet.h" afterPath="$PROJECT_DIR$/disjoint_set.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Graph.cpp" afterPath="$PROJECT_DIR$/graph.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Graph.h" afterPath="$PROJECT_DIR$/graph.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Searching-Sorting.cpp" afterPath="$PROJECT_DIR$/searching_sorting.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Searching-Sorting.h" afterPath="$PROJECT_DIR$/searching_sorting.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SegmentTree.cpp" afterPath="$PROJECT_DIR$/segment_tree.cpp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/SegmentTree.h" afterPath="$PROJECT_DIR$/segment_tree.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Debug/DisjointSet.d" afterPath="$PROJECT_DIR$/Debug/DisjointSet.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Debug/Graph.d" afterPath="$PROJECT_DIR$/Debug/Graph.d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Debug/subdir.mk" afterPath="$PROJECT_DIR$/Debug/subdir.mk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.cpp" afterPath="$PROJECT_DIR$/Main.cpp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/Algorithms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/DP.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/DP.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/DisjointSet.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/DisjointSet.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/Graph.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/Graph.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/Main.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/Main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/Searching-Sorting.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/Searching-Sorting.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/SegmentTree.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/SegmentTree.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/objects.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/sources.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Debug/subdir.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/dp.cpp.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/graph.cpp.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Main.cpp" afterPath="$PROJECT_DIR$/src/Main.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Notes" afterPath="$PROJECT_DIR$/src/Notes" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/disjoint_set.cpp" afterPath="$PROJECT_DIR$/src/disjoint_set.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/disjoint_set.h" afterPath="$PROJECT_DIR$/src/disjoint_set.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dp.cpp" afterPath="$PROJECT_DIR$/src/dp.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dp.h" afterPath="$PROJECT_DIR$/src/dp.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/graph.cpp" afterPath="$PROJECT_DIR$/src/graph.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/graph.h" afterPath="$PROJECT_DIR$/src/graph.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/searching_sorting.cpp" afterPath="$PROJECT_DIR$/src/searching_sorting.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/searching_sorting.h" afterPath="$PROJECT_DIR$/src/searching_sorting.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/segment_tree.cpp" afterPath="$PROJECT_DIR$/src/segment_tree.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/segment_tree.h" afterPath="$PROJECT_DIR$/src/segment_tree.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithms_DataStructures.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithms_DataStructures.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/objects.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Algorithms_DataStructures.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Algorithms_DataStructures.cbp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/CXX.includecache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/depend.internal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/depend.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/objects1.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/objects1.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,17 +75,17 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Main.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.cpp">
+        <entry file="file://$PROJECT_DIR$/src/Main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="searching_sorting.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searching_sorting.cpp">
+        <entry file="file://$PROJECT_DIR$/src/searching_sorting.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1456">
               <caret line="159" column="9" lean-forward="false" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
@@ -66,8 +96,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="segment_tree.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/segment_tree.cpp">
+      <file leaf-file-name="segment_tree.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/segment_tree.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
@@ -79,7 +109,7 @@
         </entry>
       </file>
       <file leaf-file-name="segment_tree.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/segment_tree.h">
+        <entry file="file://$PROJECT_DIR$/src/segment_tree.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -88,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph.cpp">
+      <file leaf-file-name="graph.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/graph.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="121" column="33" lean-forward="false" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+            <state relative-caret-position="308">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -101,17 +131,17 @@
         </entry>
       </file>
       <file leaf-file-name="graph.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graph.h">
+        <entry file="file://$PROJECT_DIR$/src/graph.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="disjoint_set.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/disjoint_set.cpp">
+        <entry file="file://$PROJECT_DIR$/src/disjoint_set.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
@@ -121,7 +151,7 @@
         </entry>
       </file>
       <file leaf-file-name="dp.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dp.cpp">
+        <entry file="file://$PROJECT_DIR$/src/dp.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
@@ -131,7 +161,7 @@
         </entry>
       </file>
       <file leaf-file-name="dp.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dp.h">
+        <entry file="file://$PROJECT_DIR$/src/dp.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
@@ -141,7 +171,7 @@
         </entry>
       </file>
       <file leaf-file-name="disjoint_set.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/disjoint_set.h">
+        <entry file="file://$PROJECT_DIR$/src/disjoint_set.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
               <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -215,6 +245,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms_DataStructures" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms-DataStructures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -224,6 +268,11 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\salem.harby\CLionProjects\Algorithms-DataStructures\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Build All">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
@@ -410,12 +459,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487796208264</updated>
-      <workItem from="1487796210434" duration="850000" />
+      <workItem from="1487796210434" duration="1074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="850000" />
+    <option name="totallyTimeSpent" value="1074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -423,14 +472,14 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55150884" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.29240376" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.37460977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="381" width="1916" height="317" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.47866806" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -460,7 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disjoint_set.h">
+    <entry file="file://$PROJECT_DIR$/src/disjoint_set.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -468,15 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/disjoint_set.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dp.cpp">
+    <entry file="file://$PROJECT_DIR$/src/dp.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
@@ -484,7 +525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dp.h">
+    <entry file="file://$PROJECT_DIR$/src/dp.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
@@ -492,33 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="121" column="33" lean-forward="false" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searching_sorting.cpp">
+    <entry file="file://$PROJECT_DIR$/src/searching_sorting.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1456">
           <caret line="159" column="9" lean-forward="false" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
@@ -528,7 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/segment_tree.h">
+    <entry file="file://$PROJECT_DIR$/src/segment_tree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -536,12 +551,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/segment_tree.cpp">
+    <entry file="file://$PROJECT_DIR$/src/segment_tree.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/disjoint_set.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

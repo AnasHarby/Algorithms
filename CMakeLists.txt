@@ -4,16 +4,16 @@ project(Algorithms_DataStructures)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        disjoint_set.cpp
-        disjoint_set.h
-        dp.cpp
-        dp.h
-        graph.cpp
-        graph.h
-        Main.cpp
-        searching_sorting.cpp
-        searching_sorting.h
-        segment_tree.cpp
-        segment_tree.h)
+        src/disjoint_set.cpp
+        src/disjoint_set.h
+        src/dp.cpp
+        src/dp.h
+        src/graph.cpp
+        src/graph.h
+        src/Main.cpp
+        src/searching_sorting.cpp
+        src/searching_sorting.h
+        src/segment_tree.cpp
+        src/segment_tree.h)
 
 add_executable(Algorithms_DataStructures ${SOURCE_FILES})

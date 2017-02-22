@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/dp.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/DP.cpp.obj"
-  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/graph.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/Graph.cpp.obj"
-  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/Main.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/Main.cpp.obj"
-  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/disjoint_set.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/disjoint_set.cpp.obj"
-  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/searching_sorting.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/searching_sorting.cpp.obj"
-  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/segment_tree.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/segment_tree.cpp.obj"
+  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/Main.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/src/Main.cpp.obj"
+  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/disjoint_set.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/src/disjoint_set.cpp.obj"
+  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/dp.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/src/dp.cpp.obj"
+  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/graph.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/src/graph.cpp.obj"
+  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/searching_sorting.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/src/searching_sorting.cpp.obj"
+  "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/src/segment_tree.cpp" "C:/Users/salem.harby/CLionProjects/Algorithms-DataStructures/cmake-build-debug/CMakeFiles/Algorithms_DataStructures.dir/src/segment_tree.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
